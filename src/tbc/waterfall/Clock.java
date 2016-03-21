@@ -11,7 +11,7 @@ public abstract class Clock {
 
 	public abstract void setLocalTime (int localTime);
 
-	public static int toLocalTime(int utcZeroTime) {
+	public int toLocalTime(int utcZeroTime) {
 		return utcZeroTime + UTC_OFFSET;
 	}
 
